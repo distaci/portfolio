@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "deftones";
+    src: url(deftone_stylus/Deftone\ Stylus.otf);
+}
+
+@font-face {
+    font-family: "didact gothic";
+    src: url(DidactGothic-Regular.ttf);
+}
+
+body {
+padding: 10px;
+}
+
+img {
+    padding: 100px;
+}
+
+.banner {
+
+    background-color: black;
+
+
+}
+
+.a {
+    font-family: "deftones";
+    color: #DE89BE;
+}
+
+.sobre-mim h1 {
+    font-family: "deftones";
+    color: #78496D;
+    font-size: 60px;
+    padding: 20px;
+}
+
+p {
+    font-family: "didact gothic";
+    color: #DE89BE;
+    font-size: 30px;
+
+    width: 50%;
+    padding: 20px;
+
+}
+
+.competencias {
+    background-color: black;
+}
+
+.competencias p {
+    color: #FDCFF3;
+}
+
+.competencias img {
+   width: 250px;
+}
+
+.competencias h1 {
+    padding: 50px;
+    color: #FDCFF3;
+    width: 250px;
+    margin-left: 30px;
+}
+
+.body form {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    border: #DE89BE;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: #DE89BE;
+
+}
+
+h1 {
+
+    color: #78496D;
+    font-family: "Deftones";
+}
+
+form p {
+    font-family: "didact gothic";
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #78496D;
+    font-family: "didact gothic";
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    font-family: "didact gothic";
+}
+
+.form-group input:focus {
+    border-color: #DE89BE;
+    outline: none;
+}
+
+.form-group button {
+    align-items: center;
+    padding: 10px;
+    background-color: #DE89BE;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #78496D;
+}
+
+.contato {
+
+    background-color: black;
+
+    font-family: "deftones";
+    color: #FDCFF3;
+    display: block;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.cinamonroll {
+    padding: 30px;
+}

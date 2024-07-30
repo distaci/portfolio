@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="banner">
+        <a href="#Sobre"></a>
+        <a href="#Competências"></a>
+        <a href="#Contato"></a>
+        <img src="img/Component 2.png" alt="logo">
+
+    </div>
+
+    <div class="sobre-mim">
+        <h1>Sobre</h1>
+        <p>Olá, meu nome é Ana Distaci, sou estudante do SENAI e estou em processo de especialização
+            em Multimídia. Meu objetivo é aprimorar minhas habilidades e competências,
+            preparando-me para ingressar de forma qualificada no mercado profissional.</p>
+    </div>
+
+    <div class="competencias">
+        <h1>Competências</h1>
+        <img src="img/Component 3.png" alt="competencias">
+    </div>
+
+    <div class="form-container">
+        <h1>Contato</h1>
+        <form action="/enviar-formulario" method="post">
+            <div class="form-group">
+                <label for="whatsapp">Número do WhatsApp:</label>
+                <input type="tel" id="whatsapp" name="whatsapp" pattern="\d{2} \d{5}-\d{4}" placeholder="11 98765-4321"
+                    required>
+
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar</button>
+            </div>
+
+           <div>
+            <section class="contato">
+                <h2>@distacii</h2>
+                <h2>ana.c.amaral8@aluno.senai.br</h2>
+                <img src="img/Component 1.png" alt="cinamonroll">
+            </section>
+        </div>
+</body>
+
+</html>
